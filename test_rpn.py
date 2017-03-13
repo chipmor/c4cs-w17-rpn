@@ -14,4 +14,6 @@ class TestBasics(unittest.TestCase):
 		result = rpn.calculate('2 2 *')
 		self.assertEqual(4, result)
 
-
+	def test_exp(self):
+		result = rpn.calculate('3 2 ^')
+		self.assertEqual(9, result)
