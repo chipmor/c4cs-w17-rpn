@@ -1,6 +1,8 @@
 language: python
 python:
 	- "3.5"
+service_name: travis-pro
+repo_token: GLWDyTDsNLzQjTH4u7bmlbRk9JGHbnW9S
 script: make 	
 before_install:
     - pip install pytest pytest-cov
