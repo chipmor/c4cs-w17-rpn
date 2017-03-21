@@ -10,6 +10,7 @@ OPERATORS = {
 	'^': operator.pow,
 }
 
+
 def calculate(arg):
 	stack = list()
 
